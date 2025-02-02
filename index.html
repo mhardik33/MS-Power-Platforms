@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            max-width: 900px;
+            width: 90%;
+        }
+        .text-section {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .portrait {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: url('20241229_155557849_iOS.heic') no-repeat center/cover;
+            margin-bottom: 15px;
+        }
+        .image-section {
+            flex: 1;
+            background: url('image.png') no-repeat center/cover;
+            height: 400px;
+        }
+        .button {
+            display: inline-block;
+            margin: 10px 5px;
+            padding: 10px 15px;
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+            <div class="portrait"></div>
+            <h1>ETHAN BLAKE</h1>
+            <p>I am Ethan Blake. As a male model, I bring versatility and a keen sense of fashion to every shoot and runway...</p>
+            <a href="#contact" class="button">Contact me</a>
+            <a href="https://github.com/yourusername/yourrepository" target="_blank" class="button">View My Project</a>
+        </div>
+        <div class="image-section"></div>
+    </div>
+</body>
+</html>
